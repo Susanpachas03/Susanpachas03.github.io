@@ -1,0 +1,233 @@
+header {
+    background-color: #0039CD;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alineación a la derecha */
+    width: 100%;
+  }
+  
+  
+  #logo {
+    width: 100px;
+  }
+  
+  #header-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-right: 60px; /* Ajusta el margen derecho según sea necesario */
+    text-align: center;
+  }
+  
+  
+  #title {
+    font-size: 20px;
+    animation: colorChange 1s infinite alternate;
+  }
+  
+  #welcome-text {
+    font-size: 16px;
+    animation: colorChange 1s infinite alternate;
+  }
+  
+  #search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  
+  #button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 10px;
+    position: relative;
+  }
+  
+  #cart-btn {
+    margin-left: 10px;
+    background-color: #0039CD;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  #cart-btn img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #cart-btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  #login-btn,
+  #shopping-btn {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0039CD;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  #login-btn:hover,
+  #shopping-btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  #search-input {
+    margin-right: 10px;
+    width: 50%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  #button-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    background-color: #0039CD;
+    padding: 5px;
+    transition: transform 0.5s ease;
+    transform: translateY(-10px);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #button-container:hover #button-dropdown {
+    display: flex;
+    transform: translateY(0);
+  }
+  
+  #button-dropdown button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0039CD;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+  }
+  
+  #button-dropdown button:hover {
+    transform: translateY(-3px);
+  }
+  
+
+
+  #search-container {
+    position: relative;
+    flex-grow: 1;
+  }
+  
+  #search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  #search-input {
+    margin-right: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  #search-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  #search-button:hover {
+    transform: translateY(-3px);
+  }
+  
+  #search-button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+
+
+
+  #menu-btn {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0039CD;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  #menu-btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  #menu-container {
+    position: relative;
+  }
+  
+  #menu-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    background-color: #0039CD;
+    padding: 5px;
+    transition: transform 1s ease;
+    transform: translateX(-200px);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #menu-container:hover #menu-dropdown {
+    display: flex;
+    transform: translateX(0);
+  }
+  
+  #menu-dropdown button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0039CD;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+  }
+  
+  #menu-dropdown button:hover {
+    transform: translateY(-3px);
+  }
+  

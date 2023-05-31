@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../imagenes/fondo.png) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  width: 340px;
+  background: #ffffff;
+  color: #0077E5;
+  box-sizing: border-box;
+  padding: 80px 50px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000000;
+  font-size: 15px;
+}
+
+.login-box input[type="submit"] {
+  background-color: #0077E5;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box a {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.social-icons a i {
+  margin-right: 10px;
+}

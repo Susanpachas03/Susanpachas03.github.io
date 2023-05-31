@@ -1,0 +1,76 @@
+h1 {
+  text-align: center;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.producto {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.producto img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.producto h2 {
+  margin-top: 0;
+}
+
+.producto a {
+  display: inline-block;
+  background-color: #555;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.producto {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Resto de los estilos ... */
+
+h1 {
+  text-align: center;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.producto {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-family: Arial, sans-serif; /* Cambiar la fuente */
+}
+
+/* Resto de los estilos ... */
